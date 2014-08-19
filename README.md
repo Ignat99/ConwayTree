@@ -3,6 +3,8 @@ ConwayTree: Life in 3D
 
 ConwayTree is an attempt to explore 3D structures formed by generations of Conway's Life cellular automaton (with time as the third axis). I used [the Minecraft clone by Michael Fogleman](https://github.com/fogleman/Minecraft) as 3D engine.
 
+Or for demonstration of the wave algorithm.
+
 You can find the general description on [the ConwayTree project's page](http://altsoph.com/projects/conwaytree/) and some related videos on [my ConwayTree youtube playlist](http://www.youtube.com/playlist?list=PLDpCMqzwZGlFhCfQLzHNfDwCJQiTHibeU).
 
 Installation
@@ -32,7 +34,13 @@ The simplest way to try ConwayTree is to type `python conway_tree.py` command in
 
 Hit `H` key to get help on controls.
 
-You can give the filename of prefab pattern as a parameter for the script to start with some different seed pattern: `python conway_tree.py patterns/cow.cells`
+You can give the filename of prefab pattern as a parameter for the script to start with some different seed pattern: 
+    `python conway_tree.py patterns/cow.cells`
+
+or for demonstration of the wave algorithm: 
+
+    `python minecraft_spq0.py  patterns/el.cells`
+
 
 Controls
 --------
